@@ -1,0 +1,12 @@
+Demo
+1. Setup a google Container environment
+2. Create Kubenrnetes Pods
+3. Create Services-ClusterIP - Internal
+4. Create Services - LoadBalancer - External
+---------------------------------------------------------
+Go to Navigating Menu and create a cluster
+- click on kubernetes cluster and create a cluster with name: example-voting-app
+- click on connect to connect to your cluster via command-line or using a dashboard. 
+  gcloud container clusters get-credentials example-voting-app --region us-central1 --project rapid-smithy-378509
+- kubectl get nodes ---> to get nodes
+- kubectl get services ---> to get services
